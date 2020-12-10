@@ -1,0 +1,58 @@
+body {
+    background: #9cc4f1;
+    height: 100%;
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background: #fff;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.contact:last-child {
+    border: 0px;
+}
+
+.avatar {
+    min-width: 90px;
+}
+
+.avatar img {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.subTitle {
+    color: grey;
+}
